@@ -17,13 +17,77 @@ public class HomePageRepository  {
 	@FindBy(xpath="//input[@id='rbReturn']")
 	private WebElement radioReturn;
 	
+
+	@FindBy(xpath="//input[@type='radio']")
+	private WebElement radioFrom1;
+	
+	public WebElement getRadioFrom1() {
+		return radioFrom1;
+	}
+
+	public void setRadioFrom1(WebElement radioFrom1) {
+		this.radioFrom1 = radioFrom1;
+	}
+
+	public WebElement getRadioReturn1() {
+		return radioReturn1;
+	}
+
+	public void setRadioReturn1(WebElement radioReturn1) {
+		this.radioReturn1 = radioReturn1;
+	}
+
+	public void setRadioFrom(WebElement radioFrom) {
+		this.radioFrom = radioFrom;
+	}
+
+	public void setRadioReturn(WebElement radioReturn) {
+		this.radioReturn = radioReturn;
+	}
+
+	public void setFromCity(WebElement fromCity) {
+		this.fromCity = fromCity;
+	}
+
+	public void setToCity(WebElement toCity) {
+		this.toCity = toCity;
+	}
+
+	public void setPassDate(WebElement passDate) {
+		this.passDate = passDate;
+	}
+
+	public void setPassengerCount(WebElement passengerCount) {
+		this.passengerCount = passengerCount;
+	}
+
+	public void setFromCityEnter(WebElement fromCityEnter) {
+		this.fromCityEnter = fromCityEnter;
+	}
+
+	public void setFromToEnter(WebElement fromToEnter) {
+		this.fromToEnter = fromToEnter;
+	}
+
+	public void setAdultEnter(WebElement adultEnter) {
+		this.adultEnter = adultEnter;
+	}
+
+	public void setSelect(WebElement select) {
+		this.select = select;
+	}
+
+	public void setCity_List(WebElement city_List) {
+		this.city_List = city_List;
+	}
+
+	@FindBy(xpath="//input[@id='rbReturn']")
+	private WebElement radioReturn1;
+	
+	
 	public WebElement getRadioFrom() {
 		return radioFrom;
 	}
-	
-	
-	
-	
 
 	public WebElement getRadioReturn() {
 		return radioReturn;
